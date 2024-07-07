@@ -1,8 +1,10 @@
 <script>
+  import { ModeWatcher } from 'mode-watcher';
 </script>
 
+<ModeWatcher defaultMode={'dark'} track={false} />
 <main>
-  <div>
-    <h1>Vite + Svelte</h1>
-  </div>
+  <header>
+    <h1 class="text-4xl font-bold">SpotiiDash Statistics</h1>
+  </header>
 </main>
